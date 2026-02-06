@@ -3,7 +3,7 @@ from deepface import DeepFace
 
 class FaceEngine:
     def __init__(self):
-        self.model_name = "Facenet512" # Model giống code bạn gửi (rất chính xác)
+        self.model_name = "Facenet512" 
         self.detector_backend = "opencv" # Nhanh nhất cho realtime
         print("--- Đang khởi tạo DeepFace AI... ---")
         
